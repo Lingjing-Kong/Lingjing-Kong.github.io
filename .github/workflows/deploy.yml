@@ -1,12 +1,13 @@
 name: Deploy Hugo site to GitHub Pages
 
-# Triggers the workflow on push events to the main branch
 on:
   push:
     branches:
       - main  # Replace 'main' with your default branch if different
 
-# Define the job to run
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -16,14 +17,14 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
         with:
-          submodules: true  # Fetches submodules (e.g., themes)
-          fetch-depth: 0    # Fetches all history for accurate last modified dates
+          submodules: true
+          fetch-depth: 0
 
       # Step 2: Set up Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'  # You can specify a version if needed
+          hugo-version: 'latest'
 
       # Step 3: Build the site
       - name: Build Hugo site
@@ -33,7 +34,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-          keep_files: true  # Optional, keeps existing files on gh-pages branch

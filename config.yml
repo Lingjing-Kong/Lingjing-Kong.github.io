@@ -10,8 +10,8 @@ taxonomies:
 
 menu:
     main:
-        - name: Publication
-          url: publication/
+        - name: Publications
+          url: publications/
           weight: 1
         # - name: Courses
         #   url: courses/
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["Publication"]
+    MainSections: ["Publications"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -59,8 +59,8 @@ params:
           imageWidth: 330
           imageHeight: 220
           buttons:
-            - name: Publication
-              url: publication/
+            - name: Publications
+              url: publications/
             # - name: Courses
             #   url: courses/
             # - name: Data

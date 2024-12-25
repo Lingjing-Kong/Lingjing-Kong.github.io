@@ -26,7 +26,7 @@ _Preprint_ -->
 _NeurIPS 2024_
 
 
-<span style="color: darkgreen">A Latent Variable Perspective for Extrapolation</span>  
+<span style="color: darkgreen">Towards Understanding Extrapolation: a Causal Lens</span>  
 **Lingjing Kong***, Guangyi Chen*, Eric Xing & Kun Zhang.  
 _NeurIPS 2024_
 

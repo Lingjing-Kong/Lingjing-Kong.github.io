@@ -5,9 +5,12 @@ I&amp;rsquo;m extremely fortunate to have an incredible trio of advisors: &lt;a 
 &lt;p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">
 &lt;em>* indicates co-first authorship.&lt;/em>
 &lt;/p>
-&lt;p>&lt;span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations&lt;/span>&lt;br>
-Yuewen Sun*, &lt;strong>Lingjing Kong&lt;/strong>*, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric Xing &amp;amp; Kun Zhang.&lt;br>
-&lt;em>In submission&lt;/em>&lt;/p>
-&lt;p>&lt;span style="color: darkgreen">A Modular Approach to Adjust Deep Neural Networks for Performativity&lt;/span>&lt;br>
-Berker Demirel*, &lt;strong>Lingjing Kong&lt;/strong>*, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner &amp;amp; Francesco Locatello.&lt;br>
-&lt;em>In submission&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;!-- &lt;span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations&lt;/span>
+Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric Xing &amp; Kun Zhang.
+_Preprint_
+&lt;span style="color: darkgreen">A Modular Approach to Adjust Deep Neural Networks for Performativity&lt;/span>
+Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner &amp; Francesco Locatello.
+_Preprint_ -->
+&lt;p>&lt;span style="color: darkgreen">Learning Discrete Concepts in Latent Hierarchical Models&lt;/span>&lt;br>
+&lt;strong>Lingjing Kong&lt;/strong>, Guangyi Chen, Biwei Huang, Eric Xing, Yuejie Chi &amp;amp; Kun Zhang.&lt;br>
+&lt;em>NeurIPS 2024&lt;/em>&lt;/p></description></item></channel></rss>

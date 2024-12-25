@@ -10,12 +10,39 @@
     line-height: var(--lineheight);
 }
 
-.profile .profile_inner {
+/* .profile .profile_inner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+} */
+
+.profile .profile_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; /* Changed from flex-start to center */
+    gap: 10px;
+    text-align: center;  /* Added to center text elements */
 }
+
+/* .profile .profile_inner span {
+    display: block;          /* Makes span a block element */
+    /* max-width: 300px;        /* Adjust to desired maximum width */
+    /* margin: 0 auto;          /* Centers the subtitle */
+    /* text-align: center;      Centers text within the span */
+/* } */
+
+.profile .buttons {
+    justify-content: center; /* Overrides justify-content: left */
+}
+
+/* (Optional) Center the entire profile section within main */
+main .profile {
+    justify-content: center; /* Changed from left to center */
+    /* The rest of the styles remain unchanged */
+}
+
 
 .profile .profile_inner h1 {
     font-size: 40px;
@@ -43,4 +70,68 @@
 
 .button:hover {
     background: var(--lightcolor);
+}
+
+
+
+/* post content entries
+*/
+
+div.profile div.profile_inner div.post-content {
+    /* max-width: 1600px;              Adjust to desired maximum width */
+    width: 100%;                   /* Full width up to max-width */
+    margin: 20px auto 0;           /* Center horizontally with top margin */
+    padding: 0 0px;               /* Horizontal padding */
+    text-align: left;              /* Left-align text */
+    box-sizing: border-box;        /* Include padding within width */
+}
+
+.profile .profile_inner .post-content p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+.profile .profile_inner .post-content h2,
+.profile .profile_inner .post-content h3,
+.profile .profile_inner .post-content h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.profile .profile_inner .post-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.profile .profile_inner .post-content a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Responsive Adjustments */
+@media (min-width: 1601px) {
+    .profile .profile_inner .post-content {
+        max-width: 2000px;      /* Even larger for ultra-wide screens */
+    }
+}
+
+@media (max-width: 1200px) {
+    .profile .profile_inner .post-content {
+        max-width: 1000px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile .profile_inner .post-content {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+
+    .profile .profile_inner .post-content p {
+        font-size: 1em;
+    }
 }

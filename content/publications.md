@@ -1,6 +1,6 @@
 ---
-title: "Publication" 
-url: /publication/
+title: "Publications" 
+url: /publications/
 hideMeta: true
 
 ---

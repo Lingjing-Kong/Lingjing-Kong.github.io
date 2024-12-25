@@ -11,14 +11,14 @@ hideMeta: true
 </p>
 
 
-<span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations</span>  
+<!-- <span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations</span>  
 Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric Xing & Kun Zhang.  
-_In submission_
+_Preprint_
 
 
 <span style="color: darkgreen">A Modular Approach to Adjust Deep Neural Networks for Performativity</span>  
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
-_In submission_
+_Preprint_ -->
 
 
 <span style="color: darkgreen">Learning Discrete Concepts in Latent Hierarchical Models</span>  

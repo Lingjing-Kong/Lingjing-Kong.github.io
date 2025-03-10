@@ -20,6 +20,13 @@ _Preprint_
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
 _Preprint_ -->
 
+<span style="color: darkgreen">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees</span>  
+Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
+_CVPR 2025_
+
+<span style="color: darkgreen">[Causal Representation Learning from Multimodal Biomedical Observations](https://arxiv.org/abs/2411.06518)</span>  
+Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang.  
+_ICLR 2025_
 
 <span style="color: darkgreen">[Learning Discrete Concepts in Latent Hierarchical Models](https://arxiv.org/abs/2406.00519)</span>  
 **Lingjing Kong**, Guangyi Chen, Biwei Huang, Eric Xing, Yuejie Chi & Kun Zhang.  

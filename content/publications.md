@@ -20,7 +20,7 @@ _Preprint_
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
 _Preprint_ -->
 
-<span style="color: darkgreen"><span style="color: darkgreen">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees</span>  
+<span style="color: darkgreen">Learning Vision and Language Concepts for Controllable Image Generation</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P.Xing, Guangyi Chen & Kun Zhang.  
 _ICML 2025_
 

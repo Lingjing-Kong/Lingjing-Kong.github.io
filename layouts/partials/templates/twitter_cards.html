@@ -6,7 +6,7 @@
 <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
 {{- end}}
 {{- else }}
-{{- $images := partial "partials/templates/_funcs/get-page-images" . -}}
+{{- $images := partial "templates/_funcs/get-page-images" . -}}
 {{- with index $images 0 -}}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ .Permalink }}" />
@@ -15,7 +15,7 @@
 {{- end -}}
 {{- end }}
 <meta name="twitter:title" content="{{ .Title }}"/>
-<meta name="twitter:description" content="{{- with .Description }}{{ . }}{{- else }}{{- with .Summary}}{{ . }}{{- else }}{{- if (eq .Kind `term`) }}Research and course materials about: {{ .Title }}{{- else }}{{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end }}{{- end -}}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{- $twitterSite := "" }}
 {{- with site.Params.social }}
   {{- if reflect.IsMap . }}
@@ -29,4 +29,4 @@
     {{- $content = printf "@%v" $twitterSite }}
   {{- end }}
 <meta name="twitter:site" content="{{ $content }}"/>
-{{- end }}
+{{- end }} 

@@ -12,13 +12,17 @@ hideMeta: true
 
 
 <!-- <span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations</span>  
-Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric Xing & Kun Zhang.  
+Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang.  
 _Preprint_
 
 
 <span style="color: darkgreen">A Modular Approach to Adjust Deep Neural Networks for Performativity</span>  
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
 _Preprint_ -->
+
+<span style="color: darkgreen">Learning Vision and Language Concepts for Controllable Image Generation</span>  
+Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
+_ICML 2025_
 
 <span style="color: darkgreen">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
@@ -29,29 +33,29 @@ Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Y
 _ICLR 2025_
 
 <span style="color: darkgreen">[Learning Discrete Concepts in Latent Hierarchical Models](https://arxiv.org/abs/2406.00519)</span>  
-**Lingjing Kong**, Guangyi Chen, Biwei Huang, Eric Xing, Yuejie Chi & Kun Zhang.  
+**Lingjing Kong**, Guangyi Chen, Biwei Huang, Eric P. Xing, Yuejie Chi & Kun Zhang.  
 _NeurIPS 2024_
 
 
 <span style="color: darkgreen">[Towards Understanding Extrapolation: a Causal Lens](https://arxiv.org/abs/2501.09163)</span>  
-**Lingjing Kong***, Guangyi Chen*, Eric Xing & Kun Zhang.  
+**Lingjing Kong***, Guangyi Chen*, Eric P. Xing & Kun Zhang.  
 _NeurIPS 2024_
 
 
 <span style="color: darkgreen">[Counterfactual Generation with Identifiability Guarantees](https://arxiv.org/abs/2402.15309)</span>  
-Hanqi Yan*, **Lingjing Kong***, Lin Gui, Yuejie Chi, Eric Xing, Yulan He & Kun Zhang.  
+Hanqi Yan*, **Lingjing Kong***, Lin Gui, Yuejie Chi, Eric P. Xing, Yulan He & Kun Zhang.  
 _NeurIPS 2023_
 
 
 
 <span style="color: darkgreen">[Identification of Nonlinear Latent Hierarchical Causal Models](https://arxiv.org/abs/2306.07916)</span>  
-**Lingjing Kong**, Biwei Huang, Feng Xie, Eric Xing, Yuejie Chi & Kun Zhang.  
+**Lingjing Kong**, Biwei Huang, Feng Xie, Eric P. Xing, Yuejie Chi & Kun Zhang.  
 _NeurIPS 2023_
 
 
 
 <span style="color: darkgreen">[Understanding Masked Autoencoders via Hierarchical Latent Variable Models](https://arxiv.org/abs/2306.04898)</span>  
-**Lingjing Kong***, Martin Ma*, Guangyi Chen, Eric Xing, Yuejie Chi, Louis-Philippe Morency & Kun Zhang.  
+**Lingjing Kong***, Martin Ma*, Guangyi Chen, Eric P. Xing, Yuejie Chi, Louis-Philippe Morency & Kun Zhang.  
 _CVPR 2023_, _Highlight: top 2.6%_
 
 

@@ -20,11 +20,25 @@ _Preprint_
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
 _Preprint_ -->
 
-<span style="color: darkgreen">Learning Vision and Language Concepts for Controllable Image Generation</span>  
+<span style="color: darkgreen">[Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models](https://arxiv.org/abs/2510.01544)</span>  
+Shaoan Xie*, **Lingjing Kong***, Xiangchen Song, Xinshuai Dong, Guangyi Chen, Eric P. Xing & Kun Zhang.  
+_Preprint_
+
+
+<span style="color: darkgreen">Identifiable Interpretation and Control in Generative Models via Causal Minimality</span>  
+**Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song, Eric P. Xing & Kun Zhang.  
+_Preprint_
+
+
+<span style="color: darkgreen">Learning by Analogy: A Causal Framework for Compositional Generalization</span>  
+**Lingjing Kong**, Shaoan Xie, Yang Jiao, Yetian Chen, Yanhui Guo, Simone Shao, Yan Gao, Guangyi Chen &Kun Zhang.  
+_Preprint_
+
+<span style="color: darkgreen">[Learning Vision and Language Concepts for Controllable Image Generation](https://openreview.net/pdf?id=hUHRTaTfvZ)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
 _ICML 2025_
 
-<span style="color: darkgreen">SmartCLIP: Modular Vision-language Alignment with Identification Guarantees</span>  
+<span style="color: darkgreen">[SmartCLIP: Modular Vision-language Alignment with Identification Guarantees](https://arxiv.org/abs/2507.22264v1)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
 _CVPR 2025_, _Spotlight_
 
@@ -47,11 +61,9 @@ Hanqi Yan*, **Lingjing Kong***, Lin Gui, Yuejie Chi, Eric P. Xing, Yulan He & Ku
 _NeurIPS 2023_
 
 
-
 <span style="color: darkgreen">[Identification of Nonlinear Latent Hierarchical Causal Models](https://arxiv.org/abs/2306.07916)</span>  
 **Lingjing Kong**, Biwei Huang, Feng Xie, Eric P. Xing, Yuejie Chi & Kun Zhang.  
 _NeurIPS 2023_
-
 
 
 <span style="color: darkgreen">[Understanding Masked Autoencoders via Hierarchical Latent Variable Models](https://arxiv.org/abs/2306.04898)</span>  
@@ -59,16 +71,14 @@ _NeurIPS 2023_
 _CVPR 2023_, _Highlight: top 2.6%_
 
 
-
 <span style="color: darkgreen">[Multi-domain Image Generation and Translation with Identifiability Guarantees](https://openreview.net/pdf?id=U2g8OGONA_V)</span>  
 Shaoan Xie, **Lingjing Kong**, Mingming Gong & Kun Zhang.  
 _ICLR 2023_, _Spotlight: top 3.8%_
 
 
-
 <span style="color: darkgreen">[Partial Identifiability for Domain Adaptation](https://arxiv.org/abs/2306.06510)</span>  
 **Lingjing Kong**, Shaoan Xie, Weiran Yao, Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande & Kun Zhang.  
-_ICML 2022_
+_ICML 2022_, _Spotlight_
 
 
 

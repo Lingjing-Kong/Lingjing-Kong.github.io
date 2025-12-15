@@ -27,7 +27,7 @@ _Preprint_
 
 
 <span style="color: darkgreen">[Learning by Analogy: A Causal Framework for Compositional Generalization](http://arxiv.org/abs/2512.10669)</span>  
-**Lingjing Kong**, Shaoan Xie, Yang Jiao, Yetian Chen, Yanhui Guo, Simone Shao, Yan Gao, Guangyi Chen &Kun Zhang.  
+**Lingjing Kong**, Shaoan Xie, Yang Jiao, Yetian Chen, Yanhui Guo, Simone Shao, Yan Gao, Guangyi Chen & Kun Zhang.  
 _Preprint_
 
 <span style="color: darkgreen">[Learning Vision and Language Concepts for Controllable Image Generation](https://openreview.net/pdf?id=hUHRTaTfvZ)</span>  

@@ -13,7 +13,7 @@ hideMeta: true
 
 <span style="color: darkgreen">[World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry](https://arxiv.org/abs/2604.01985)</span>  
 Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du.  
-_ICLR 2026 Workshop_, _Outstanding_
+_ICLR 2026 Workshop World Models_, _Outstanding_
 
 <span style="color: darkgreen">From Reasoning Traces to Reusable Modules: Reinforcement Learning for Compositional Generalization in Language Model Reasoning</span>  
 **Lingjing Kong**, Xin Liu, Guangyi Chen, Martin Ma, Xiangchen Song, Yuekai Sun, Mikhail Yurochkin, Taylor Killian, Ruslan Salakhutdinov, Kun Zhang, Eric P. Xing & Zhengzhong Liu.  

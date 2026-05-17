@@ -11,40 +11,49 @@ hideMeta: true
 </p>
 
 
-<!-- <span style="color: darkgreen">Causal Representation Learning from Multimodal Biological Observations</span>  
-Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang.  
-_Preprint_
- -->
+<span style="color: darkgreen">[World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry](https://arxiv.org/abs/2604.01985)</span>  
+Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu, Jinzhou Tang, XiangCheng Zhang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du.  
+_ICLR 2026 Workshop_, _Outstanding_
+
+<span style="color: darkgreen">From Reasoning Traces to Reusable Modules: Reinforcement Learning for Compositional Generalization in Language Model Reasoning</span>  
+**Lingjing Kong**, Xin Liu, Guangyi Chen, Martin Ma, Xiangchen Song, Yuekai Sun, Mikhail Yurochkin, Taylor Killian, Ruslan Salakhutdinov, Kun Zhang, Eric P. Xing & Zhengzhong Liu.  
+_ICML 2026_
 
 <span style="color: darkgreen">[Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models](https://arxiv.org/abs/2510.01544)</span>  
 Shaoan Xie*, **Lingjing Kong***, Xiangchen Song, Xinshuai Dong, Guangyi Chen, Eric P. Xing & Kun Zhang.  
-_Preprint_
+_ACL 2026_
 
-
-<span style="color: darkgreen">[Beyond the Black Box: Identifiable Interpretation and Control in Generative Models via Causal Minimality](http://arxiv.org/abs/2512.10720)</span>  
-**Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song, Eric P. Xing & Kun Zhang.  
-_Preprint_
-
-
-<span style="color: darkgreen">[Learning by Analogy: A Causal Framework for Compositional Generalization](http://arxiv.org/abs/2512.10669)</span>  
+<span style="color: darkgreen">[Learning by Analogy: A Causal Framework for Compositional Generalization](https://arxiv.org/abs/2512.10669)</span>  
 **Lingjing Kong**, Shaoan Xie, Yang Jiao, Yetian Chen, Yanhui Guo, Simone Shao, Yan Gao, Guangyi Chen & Kun Zhang.  
-_Preprint_
+_CVPR 2026_
 
-<span style="color: darkgreen">[Learning Vision and Language Concepts for Controllable Image Generation](https://openreview.net/pdf?id=hUHRTaTfvZ)</span>  
+<span style="color: darkgreen">[Beyond the Black Box: Identifiable Interpretation and Control in Generative Models via Causal Minimality](https://arxiv.org/abs/2512.10720)</span>  
+**Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song, Eric P. Xing & Kun Zhang.  
+_In submission_
+
+<span style="color: darkgreen">[Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)</span>  
+Yunlong Deng, Guangyi Chen, Tianpei Gu, **Lingjing Kong**, Yan Li, Zeyu Tang & Kun Zhang.  
+_NeurIPS 2025_
+
+<span style="color: darkgreen">[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)</span>  
+Xiangchen Song, Aashiq Muhamed, Yujia Zheng, **Lingjing Kong**, Zeyu Tang, Mona T. Diab, Virginia Smith & Kun Zhang.  
+_ACL 2026_
+
+<span style="color: darkgreen">[Aligning Atomic Vision Language Concepts for Controllable Image Generation](https://openreview.net/pdf?id=hUHRTaTfvZ)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
 _ICML 2025_
 
 <span style="color: darkgreen">[SmartCLIP: Modular Vision-language Alignment with Identification Guarantees](https://arxiv.org/abs/2507.22264v1)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
-_CVPR 2025_, _Spotlight_
+_CVPR 2025_, _Highlight_
 
-<span style="color: darkgreen">[Causal Representation Learning from Multimodal Biomedical Observations](https://arxiv.org/abs/2411.06518)</span>  
+<span style="color: darkgreen">[Causal Representation Learning from Multimodal Biological Observations](https://arxiv.org/abs/2411.06518)</span>  
 Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang.  
 _ICLR 2025_
 
-<span style="color: darkgreen">[Adjusting Pretrained Backbones for Performativity](https://arxiv.org/abs/2410.04499)</span>  
+<span style="color: darkgreen">[A Modular Approach to Adjust Deep Neural Networks for Performativity](https://arxiv.org/abs/2410.04499)</span>  
 Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello.  
-_Preprint_
+_In submission_
 
 <span style="color: darkgreen">[Learning Discrete Concepts in Latent Hierarchical Models](https://arxiv.org/abs/2406.00519)</span>  
 **Lingjing Kong**, Guangyi Chen, Biwei Huang, Eric P. Xing, Yuejie Chi & Kun Zhang.  
@@ -115,5 +124,3 @@ _CVPR 2020 Workshop_
 <span style="color: darkgreen">[Power Consumption Evaluation in High Speed Visible Light Communication Systems](https://ieeexplore.ieee.org/document/8647711)</span>  
 **Lingjing Kong**, Cheng Chen, Yunlu Wang & Harald Hass.  
 _IEEE Globecom Conference 2018_
-
-

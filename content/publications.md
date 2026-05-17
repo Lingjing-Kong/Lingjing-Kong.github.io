@@ -12,7 +12,7 @@ hideMeta: true
 
 
 <span style="color: darkgreen">[World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry](https://arxiv.org/abs/2604.01985)</span>  
-Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu, Jinzhou Tang, XiangCheng Zhang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du.  
+Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu, Jinzhou Tang, Xiangcheng Zhang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du.  
 _ICLR 2026 Workshop_, _Outstanding_
 
 <span style="color: darkgreen">From Reasoning Traces to Reusable Modules: Reinforcement Learning for Compositional Generalization in Language Model Reasoning</span>  
@@ -31,13 +31,14 @@ _CVPR 2026_
 **Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song, Eric P. Xing & Kun Zhang.  
 _In submission_
 
-<span style="color: darkgreen">[Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)</span>  
-Yunlong Deng, Guangyi Chen, Tianpei Gu, **Lingjing Kong**, Yan Li, Zeyu Tang & Kun Zhang.  
-_NeurIPS 2025_
 
 <span style="color: darkgreen">[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)</span>  
 Xiangchen Song, Aashiq Muhamed, Yujia Zheng, **Lingjing Kong**, Zeyu Tang, Mona T. Diab, Virginia Smith & Kun Zhang.  
-_ACL 2026_
+_ACL 2026_, _Oral_
+
+<span style="color: darkgreen">[Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)</span>  
+Yunlong Deng, Guangyi Chen, Tianpei Gu, **Lingjing Kong**, Yan Li, Zeyu Tang & Kun Zhang.  
+_NeurIPS 2025_
 
 <span style="color: darkgreen">[Aligning Atomic Vision Language Concepts for Controllable Image Generation](https://openreview.net/pdf?id=hUHRTaTfvZ)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  

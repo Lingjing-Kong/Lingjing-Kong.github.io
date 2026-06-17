@@ -13,9 +13,9 @@ hideMeta: true
 
 <span style="color: darkgreen">[World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry](https://arxiv.org/abs/2604.01985)</span>  
 Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du.  
-_ICLR 2026 Workshop World Models_, _Outstanding Paper_
+_ICLR 2026 Workshop World Models_ <span class="award-badge">Outstanding Paper</span>
 
-<span style="color: darkgreen">From Reasoning Traces to Reusable Modules: Reinforcement Learning for Compositional Generalization in Language Model Reasoning</span>  
+<span style="color: darkgreen">[From Reasoning Traces to Reusable Modules: Understanding Compositional Generalization in Language Model Reasoning](http://arxiv.org/abs/2606.18089)</span>  
 **Lingjing Kong***, Xin Liu*, Guangyi Chen, Martin Ma, Xiangchen Song, Yuekai Sun, Mikhail Yurochkin, Taylor Killian, Ruslan Salakhutdinov, Kun Zhang, Eric P. Xing & Zhengzhong Liu.  
 _ICML 2026_
 
@@ -34,7 +34,7 @@ _In submission_
 
 <span style="color: darkgreen">[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)</span>  
 Xiangchen Song, Aashiq Muhamed, Yujia Zheng, **Lingjing Kong**, Zeyu Tang, Mona T. Diab, Virginia Smith & Kun Zhang.  
-_ACL 2026_, _Oral_
+_ACL 2026_ <span class="award-badge">Oral</span>
 
 <span style="color: darkgreen">[Towards Self-Refinement of Vision-Language Models with Triangular Consistency](https://arxiv.org/abs/2510.10487)</span>  
 Yunlong Deng, Guangyi Chen, Tianpei Gu, **Lingjing Kong**, Yan Li, Zeyu Tang & Kun Zhang.  
@@ -46,7 +46,7 @@ _ICML 2025_
 
 <span style="color: darkgreen">[SmartCLIP: Modular Vision-language Alignment with Identification Guarantees](https://arxiv.org/abs/2507.22264v1)</span>  
 Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang.  
-_CVPR 2025_, _Highlight_
+_CVPR 2025_ <span class="award-badge">Highlight</span>
 
 <span style="color: darkgreen">[Causal Representation Learning from Multimodal Biological Observations](https://arxiv.org/abs/2411.06518)</span>  
 Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang.  
@@ -78,17 +78,17 @@ _NeurIPS 2023_
 
 <span style="color: darkgreen">[Understanding Masked Autoencoders via Hierarchical Latent Variable Models](https://arxiv.org/abs/2306.04898)</span>  
 **Lingjing Kong***, Martin Ma*, Guangyi Chen, Eric P. Xing, Yuejie Chi, Louis-Philippe Morency & Kun Zhang.  
-_CVPR 2023_, _Highlight: top 2.6%_
+_CVPR 2023_ <span class="award-badge">Highlight: top 2.6%</span>
 
 
 <span style="color: darkgreen">[Multi-domain Image Generation and Translation with Identifiability Guarantees](https://openreview.net/pdf?id=U2g8OGONA_V)</span>  
 Shaoan Xie, **Lingjing Kong**, Mingming Gong & Kun Zhang.  
-_ICLR 2023_, _Spotlight: top 3.8%_
+_ICLR 2023_ <span class="award-badge">Spotlight: top 3.8%</span>
 
 
 <span style="color: darkgreen">[Partial Identifiability for Domain Adaptation](https://arxiv.org/abs/2306.06510)</span>  
 **Lingjing Kong**, Shaoan Xie, Weiran Yao, Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande & Kun Zhang.  
-_ICML 2022_, _Spotlight_
+_ICML 2022_ <span class="award-badge">Spotlight</span>
 
 
 

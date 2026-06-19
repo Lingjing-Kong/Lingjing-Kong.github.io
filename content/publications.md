@@ -29,7 +29,7 @@ _CVPR 2026_
 
 <span style="color: darkgreen">[Beyond the Black Box: Identifiable Interpretation and Control in Generative Models via Causal Minimality](https://arxiv.org/abs/2512.10720)</span>  
 **Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song, Eric P. Xing & Kun Zhang.  
-_In submission_
+_ECCV 2026_
 
 
 <span style="color: darkgreen">[Position: Mechanistic Interpretability Should Prioritize Feature Consistency in SAEs](https://arxiv.org/abs/2505.20254)</span>  

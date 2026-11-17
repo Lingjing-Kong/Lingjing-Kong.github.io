@@ -1,137 +1,79 @@
-.buttons,
 .main .profile {
-    display: flex;
-    justify-content: left;
-}
-.main .profile {
-    align-items: center;
-    min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
+    padding-top: 28px;
     font-size: var(--homesize);
-    line-height: var(--lineheight);
+    line-height: 1.65;
 }
 
-/* .profile .profile_inner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-} */
-
-.profile .profile_inner {
-    display: flex;
+.profile_inner {
     width: 100%;
-    flex-direction: column;
-    align-items: center; /* Changed from flex-start to center */
-    gap: 10px;
-    text-align: center;  /* Added to center text elements */
 }
 
-/* .profile .profile_inner span {
-    display: block;          /* Makes span a block element */
-    /* max-width: 300px;        /* Adjust to desired maximum width */
-    /* margin: 0 auto;          /* Centers the subtitle */
-    /* text-align: center;      Centers text within the span */
-/* } */
-
-.profile .buttons {
-    justify-content: center; /* Overrides justify-content: left */
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--border);
 }
 
-/* (Optional) Center the entire profile section within main */
-main .profile {
-    justify-content: center; /* Changed from left to center */
-    /* The rest of the styles remain unchanged */
+.profile-name-cn {
+    color: var(--secondary);
+    font-size: 18px;
+    letter-spacing: 0.12em;
 }
 
-
-.profile .profile_inner h1 {
-    font-size: 40px;
+.profile h1 {
+    font-size: clamp(32px, 5vw, 40px);
+    line-height: 1.2;
+    margin: 5px 0 16px;
 }
 
-.profile img {
-    border-radius: 50%;
+.profile-role {
+    color: var(--secondary);
+    font-size: 16px;
+    line-height: 1.55;
 }
 
-.buttons {
-    flex-wrap: wrap;
+.profile .social-icons {
+    margin: 14px 0 0 -10px;
 }
 
-.button {
-    background: var(--tertiary);
-    border-radius: var(--radius);
-    margin: 8px 16px 8px 0px;
-    padding: 6px;
-    transition: transform 0.1s;
+.profile-photo {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
-.button-inner {
-    padding: 0 8px;
+.profile .post-content {
+    margin-top: 28px;
+    font-size: 17px;
+    line-height: 1.7;
 }
 
-.button:hover {
-    background: var(--lightcolor);
+.profile .post-content h2 {
+    font-size: 23px;
+    margin: 32px 0 14px;
 }
 
-
-
-/* post content entries
-*/
-
-div.profile div.profile_inner div.post-content {
-    /* max-width: 1600px;              Adjust to desired maximum width */
-    width: 100%;                   /* Full width up to max-width */
-    margin: 20px auto 0;           /* Center horizontally with top margin */
-    padding: 0 0px;               /* Horizontal padding */
-    text-align: left;              /* Left-align text */
-    box-sizing: border-box;        /* Include padding within width */
+.profile .post-content li {
+    margin-bottom: 10px;
 }
 
-.profile .profile_inner .post-content p {
-    line-height: 1.6;
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
-}
-
-.profile .profile_inner .post-content h2,
-.profile .profile_inner .post-content h3,
-.profile .profile_inner .post-content h4 {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
-
-.profile .profile_inner .post-content a {
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.2s;
-}
-
-.profile .profile_inner .post-content a:hover {
-    border-bottom: 1px solid var(--primary-color);
-}
-
-/* Responsive Adjustments */
-@media (min-width: 1601px) {
-    .profile .profile_inner .post-content {
-        max-width: 2000px;      /* Even larger for ultra-wide screens */
-    }
-}
-
-@media (max-width: 1200px) {
-    .profile .profile_inner .post-content {
-        max-width: 1000px;
-        padding: 0 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    .profile .profile_inner .post-content {
-        max-width: 90%;
-        padding: 0 10px;
+@media (max-width: 600px) {
+    .main .profile {
+        padding-top: 10px;
     }
 
-    .profile .profile_inner .post-content p {
-        font-size: 1em;
+    .profile-header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .profile-photo {
+        width: 210px;
+        height: 140px;
     }
 }

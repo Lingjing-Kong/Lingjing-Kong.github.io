@@ -1,0 +1,19 @@
+<section class="profile">
+    <div class="profile_inner">
+        {{- with site.Params.profileMode }}
+        <header class="profile-header">
+            <div class="profile-heading">
+                <p class="profile-name-cn" lang="zh">孔令京</p>
+                <h1>{{ .title | default site.Title }}</h1>
+                <p class="profile-role">{{ .subtitle | markdownify }}</p>
+                {{- partial "social_icons.html" -}}
+            </div>
+            <img class="profile-photo" src="{{ .imageUrl | absURL }}"
+                 alt="{{ .imageTitle }}" width="{{ .imageWidth }}" height="{{ .imageHeight }}">
+        </header>
+        {{- end }}
+        <div class="post-content">
+            {{- with site.GetPage "introduction" }}{{ .Content }}{{ end }}
+        </div>
+    </div>
+</section>

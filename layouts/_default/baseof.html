@@ -3,7 +3,7 @@
 {{- end -}}
 
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+<html lang="{{ site.Language }}" dir="{{ .Language.Direction | default "auto" }}">
 
 <head>
     {{- partial "head.html" . }}
@@ -17,9 +17,7 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- if not .IsHome  }}
     {{- partialCached "header.html" . .Page -}}
-    {{- end }}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>

@@ -10,22 +10,26 @@ taxonomies:
 
 menu:
     main:
-        - name: Research
-          url: research/
-          weight: 1
         - name: Publications
           url: publications/
-          weight: 2
-        - name: Teaching
-          url: teaching/
-          weight: 3
-        - name: CV
-          url: cv.pdf
-          weight: 4
+          weight: 1
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
 
 params:
-    description: "Lingjing Kong, Assistant Professor / Faculty Fellow at NYU Center for Data Science. Beyond Prediction: Causal Representation Learning for Transferable, Interpretable, and Controllable AI."
+    description: "I am a Ph.D. student in the Computer Science Department at Carnegie Mellon University."
     author: Lingjing Kong
+    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -45,37 +49,69 @@ params:
     ShowWordCount: false
     UseHugoToc: true
     comments: false
-    math: false
+    math: true
     profileMode:
           enabled: true
-          title: Lingjing Kong
-          subtitle: "Assistant Professor / Faculty Fellow<br>Center for Data Science, New York University"
-          imageUrl: "profile_photo-web.jpg"
-          imageTitle: "Lingjing Kong"
-          imageWidth: 270
-          imageHeight: 180
+          title: Lingjing Kong (孔令京)
+          subtitle:
+          # subtitle: "I am a Ph.D. student in the [<u>Computer Science Department</u>](https://csd.cmu.edu) at Carnegie Mellon University."
+          imageUrl: "profile_photo.jpg"
+          imageWidth: 330
+          imageHeight: 220
+          buttons:
+            - name: Publications
+              url: publications/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+            # - name: Books
+            #   url: books/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
+        # - name: CV
+        #   url: cv.pdf
         - name: Email
           url: mailto:lingjing.kong@nyu.edu
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=4hAlzvkAAAAJ&hl=en
-        - name: X
-          url: https://x.com/lingjingkong
+        # - name: GitHub
+        #   url: https://github.com/pmichaillat
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        - name: Twitter
+          url: https://twitter.com/lingjingkong?lang=en
 
     assets:
         disableScrollBarStyle: true
-        favicon: "/favicon.svg"
-        favicon16x16: "/favicon-16x16.png"
-        favicon32x32: "/favicon-32x32.png"
-        apple_touch_icon: "/apple-touch-icon.png"
-        safari_pinned_tab: "/favicon.svg"
-        theme_color: "#4b2878"
+        favicon: "/images/scslogo_no_outline.png"
+        favicon16x16: "/images/scslogo_no_outline.png"
+        favicon32x32: "/images/scslogo_no_outline.png"
+        apple_touch_icon: "/images/scslogo_no_outline.png"
+        # theme_color = "#2e2e33"
+        # msapplication_TileColor = "#2e2e33"
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-        text: "Lingjing Kong"
+      text: "Lingjing Kong"
+      # icon: favicon.ico
+      icon: images/scslogo_no_outline.png
+      iconHeight: 18
 
 markup:
     goldmark:
@@ -83,7 +119,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn
+        style: autumn 
     tableOfContents:
         endLevel: 2
         ordered: false

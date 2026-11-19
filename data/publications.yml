@@ -1,0 +1,177 @@
+# Publication list, newest first. Add new papers at the top.
+# Citation numbers are assigned from the bottom (oldest = 1), so existing numbers never change.
+# `key` is the anchor id on /research/ and the argument of the cite shortcode.
+
+- key: k2-horizon-2026
+  title: "K2-Horizon: A Frontier Fleet of Open Source Language Models"
+  url: "https://arxiv.org/abs/2611.21003"
+  authors: "K2 Team (core contributor)."
+  venue: "_arXiv preprint, 2026_"
+
+- key: world-action-verifier-2026
+  title: "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry"
+  url: "https://arxiv.org/abs/2604.01985"
+  authors: "Yuejiang Liu*, Fan Feng*, **Lingjing Kong***, Weifeng Lu*, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn & Yilun Du."
+  venue: "_NeurIPS 2026_ · _ICLR 2026 World Models Workshop_"
+  badge: "Outstanding Paper"
+
+- key: chi-bench-2026
+  title: "CHI-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?"
+  url: "https://arxiv.org/abs/2605.16679v4"
+  authors: "Haolin Chen, Deon Metelski, Leon Qi, Tao Xia, Joonyul Lee, Steve Brown, Kevin Riley, Frank Wang, T. Y. Alvin Liu, Hank Capps, Zeyu Tang, Xiangchen Song, **Lingjing Kong**, Fan Feng, Tianyi Zeng, Zhiwei Liu, Zixian Ma, Hang Jiang, Fangli Geng, Yuan Yuan, Chenyu You, Qingsong Wen, Hua Wei, Yanjie Fu, Yue Zhao, Carl Yang, Biwei Huang, Kun Zhang, Caiming Xiong, Sanmi Koyejo, Eric P. Xing, Philip S. Yu & Weiran Yao."
+  venue: "_NeurIPS 2026, Evaluations and Datasets Track_"
+
+- key: deployment-memory-2026
+  title: "Deployment-Memory LLM Test-Time Training Should Require Behavioral Evidence Beyond Perplexity"
+  url: "https://arxiv.org/abs/2607.00368"
+  authors: "Xiangchen Song, Zhenhao Chen, **Lingjing Kong**, Shaoan Xie, Xinshuai Dong, Guangyi Chen & Kun Zhang."
+  venue: "_NeurIPS 2026, Position Paper Track_"
+
+- key: attribute-guided-generation-2026
+  title: "Controllable Attribute-Guided Image Generation with Causal Modeling"
+  url: "https://openreview.net/forum?id=S3VzsH9VGs"
+  authors: "Shaoan Xie*, Yujia Zheng*, Ignavier Ng, **Lingjing Kong** & Kun Zhang."
+  venue: "_TMLR 2026_"
+
+- key: reusable-modules-2026
+  title: "From Reasoning Traces to Reusable Modules: Understanding Compositional Generalization in Language Model Reasoning"
+  url: "https://arxiv.org/abs/2606.18089"
+  authors: "**Lingjing Kong***, Xin Liu*, Guangyi Chen, Martin Ma, Xiangchen Song, Yuekai Sun, Mikhail Yurochkin, Taylor Killian, Ruslan Salakhutdinov, Kun Zhang, Eric P. Xing & Zhengzhong Liu."
+  venue: "_ICML 2026_"
+
+- key: diffusion-reasoning-2026
+  title: "Advancing Reasoning in Diffusion Language Models with Denoising Process Rewards"
+  url: "https://aclanthology.org/2026.acl-long.1978/"
+  authors: "Shaoan Xie*, **Lingjing Kong***, Xiangchen Song, Xinshuai Dong, Guangyi Chen, Eric P. Xing & Kun Zhang."
+  venue: "_ACL 2026_"
+
+- key: learning-by-analogy-2026
+  title: "Learning by Analogy: A Causal Framework for Compositional Generalization"
+  url: "https://arxiv.org/abs/2512.10669"
+  authors: "**Lingjing Kong**, Shaoan Xie, Yang Jiao, Yetian Chen, Yanhui Guo, Simone Shao, Yan Gao, Guangyi Chen & Kun Zhang."
+  venue: "_CVPR 2026_"
+
+- key: beyond-the-black-box-2026
+  title: "Beyond the Black Box: Identifiable Interpretation and Control in Generative Models via Causal Minimality"
+  url: "https://eccv.ecva.net/virtual/2026/poster/4260"
+  authors: "**Lingjing Kong***, Shaoan Xie*, Guangyi Chen, Yuewen Sun, Xiangchen Song & Kun Zhang."
+  venue: "_ECCV 2026_"
+
+- key: feature-consistency-2026
+  title: "Mechanistic Interpretability Should Prioritize Feature Consistency in Sparse Autoencoders"
+  url: "https://aclanthology.org/2026.acl-long.99/"
+  authors: "Xiangchen Song, Aashiq Muhamed, Yujia Zheng, **Lingjing Kong**, Zeyu Tang, Mona T. Diab, Virginia Smith & Kun Zhang."
+  venue: "_ACL 2026_"
+  badge: "Oral"
+
+- key: triangular-consistency-2025
+  title: "Towards Self-Refinement of Vision-Language Models with Triangular Consistency"
+  url: "https://arxiv.org/abs/2510.10487"
+  authors: "Yunlong Deng, Guangyi Chen, Tianpei Gu, **Lingjing Kong**, Yan Li, Zeyu Tang & Kun Zhang."
+  venue: "_NeurIPS 2025_"
+
+- key: vision-language-concepts-2025
+  title: "Learning Vision and Language Concepts for Controllable Image Generation"
+  url: "https://proceedings.mlr.press/v267/xie25g.html"
+  authors: "Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang."
+  venue: "_ICML 2025_"
+
+- key: smartclip-2025
+  title: "SmartCLIP: Modular Vision-language Alignment with Identification Guarantees"
+  url: "https://arxiv.org/abs/2507.22264v1"
+  authors: "Shaoan Xie*, **Lingjing Kong***, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen & Kun Zhang."
+  venue: "_CVPR 2025_"
+  badge: "Highlight"
+
+- key: biomedical-observations-2025
+  title: "Causal Representation Learning from Multimodal Biomedical Observations"
+  url: "https://openreview.net/forum?id=hjROBHstZ3"
+  authors: "Yuewen Sun*, **Lingjing Kong***, Guangyi Chen, Loka Li, Gongxu Luo, Zijian Li, Yixuan Zhang, Yujia Zheng, Mengyue Yang, Petar Stojanov, Eran Segal, Eric P. Xing & Kun Zhang."
+  venue: "_ICLR 2025_"
+
+- key: performativity
+  title: "A Modular Approach to Adjust Deep Neural Networks for Performativity"
+  url: "https://arxiv.org/abs/2410.04499"
+  authors: "Berker Demirel*, **Lingjing Kong***, Kun Zhang, Theofanis Karaletsos, Celestine Mendler-Dünner & Francesco Locatello."
+  venue: "_In submission_"
+
+- key: discrete-concepts-2024
+  title: "Learning Discrete Concepts in Latent Hierarchical Models"
+  url: "https://arxiv.org/abs/2406.00519"
+  authors: "**Lingjing Kong**, Guangyi Chen, Biwei Huang, Eric P. Xing, Yuejie Chi & Kun Zhang."
+  venue: "_NeurIPS 2024_"
+
+- key: causal-extrapolation-2024
+  title: "Towards Understanding Extrapolation: a Causal Lens"
+  url: "https://arxiv.org/abs/2501.09163"
+  authors: "**Lingjing Kong***, Guangyi Chen*, Petar Stojanov, Haoxuan Li, Eric P. Xing & Kun Zhang."
+  venue: "_NeurIPS 2024_"
+
+- key: counterfactual-generation-2023
+  title: "Counterfactual Generation with Identifiability Guarantees"
+  url: "https://arxiv.org/abs/2402.15309"
+  authors: "Hanqi Yan*, **Lingjing Kong***, Lin Gui, Yuejie Chi, Eric P. Xing, Yulan He & Kun Zhang."
+  venue: "_NeurIPS 2023_"
+
+- key: nonlinear-latent-hierarchical-models-2023
+  title: "Identification of Nonlinear Latent Hierarchical Models"
+  url: "https://arxiv.org/abs/2306.07916"
+  authors: "**Lingjing Kong**, Biwei Huang, Feng Xie, Eric P. Xing, Yuejie Chi & Kun Zhang."
+  venue: "_NeurIPS 2023_"
+
+- key: masked-autoencoders-2023
+  title: "Understanding Masked Autoencoders via Hierarchical Latent Variable Models"
+  url: "https://arxiv.org/abs/2306.04898"
+  authors: "**Lingjing Kong***, Martin Ma*, Guangyi Chen, Eric P. Xing, Yuejie Chi, Louis-Philippe Morency & Kun Zhang."
+  venue: "_CVPR 2023_"
+  badge: "Highlight: top 2.6%"
+
+- key: multi-domain-generation-2023
+  title: "Multi-domain Image Generation and Translation with Identifiability Guarantees"
+  url: "https://openreview.net/pdf?id=U2g8OGONA_V"
+  authors: "Shaoan Xie, **Lingjing Kong**, Mingming Gong & Kun Zhang."
+  venue: "_ICLR 2023_"
+  badge: "Spotlight"
+
+- key: partial-disentanglement-2022
+  title: "Partial Disentanglement for Domain Adaptation"
+  url: "https://proceedings.mlr.press/v162/kong22a.html"
+  authors: "**Lingjing Kong**, Shaoan Xie, Weiran Yao, Yujia Zheng, Guangyi Chen, Petar Stojanov, Victor Akinwande & Kun Zhang."
+  venue: "_ICML 2022_"
+  badge: "Spotlight"
+
+- key: consensus-control-2021
+  title: "Consensus Control for Decentralized Deep Learning"
+  url: "https://arxiv.org/abs/2102.04828"
+  authors: "**Lingjing Kong***, Tao Lin*, Anastasia Koloskova, Martin Jaggi & Sebastian U. Stich."
+  venue: "_ICML 2021_"
+
+- key: ensemble-distillation-2020
+  title: "Ensemble Distillation for Robust Model Fusion in Federated Learning"
+  url: "https://arxiv.org/abs/2006.07242"
+  authors: "Tao Lin*, **Lingjing Kong***, Sebastian U. Stich & Martin Jaggi."
+  venue: "_NeurIPS 2020_"
+
+- key: large-batch-extrapolation-2020
+  title: "Extrapolation for Large-batch Training in Deep Learning"
+  url: "https://arxiv.org/abs/2006.05720"
+  authors: "Tao Lin*, **Lingjing Kong***, Sebastian U. Stich & Martin Jaggi."
+  venue: "_ICML 2020_"
+
+- key: self-training-dialog-2021
+  title: "Self-training Improves Pre-training for Few-shot Learning in Task-oriented Dialog Systems"
+  url: "https://arxiv.org/abs/2108.12589"
+  authors: "Fei Mi, Wanhao Zhou, **Lingjing Kong**, Fengyu Cai, Minlie Huang & Boi Faltings."
+  venue: "_EMNLP 2021_"
+
+- key: class-incremental-learning-2020
+  title: "Generalized Class Incremental Learning"
+  url: "https://openaccess.thecvf.com/content_CVPRW_2020/papers/w15/Mi_Generalized_Class_Incremental_Learning_CVPRW_2020_paper.pdf"
+  authors: "Fei Mi*, **Lingjing Kong***, Tao Lin, Kaicheng Yu & Boi Faltings."
+  venue: "_CVPR 2020 Workshop_"
+
+- key: visible-light-communication-2018
+  title: "Power Consumption Evaluation in High Speed Visible Light Communication Systems"
+  url: "https://ieeexplore.ieee.org/document/8647711"
+  authors: "**Lingjing Kong**, Cheng Chen, Yunlu Wang & Harald Haas."
+  venue: "_IEEE Globecom Conference 2018_"

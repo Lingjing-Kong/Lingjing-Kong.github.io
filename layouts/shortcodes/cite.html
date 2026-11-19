@@ -1,0 +1,20 @@
+{{- /* Numbered citation linking to the publication list on /research/.
+       Usage: {{< cite smartclip-2025 biomedical-observations-2025 >}} prints [15, 16].
+       Numbers come from data/publications.yml (oldest entry = 1). */ -}}
+{{- $pubs := hugo.Data.publications -}}
+{{- $total := len $pubs -}}
+{{- $cites := slice -}}
+{{- range $key := .Params -}}
+  {{- $found := false -}}
+  {{- range $i, $p := $pubs -}}
+    {{- if eq $p.key $key -}}
+      {{- $cites = $cites | append (dict "n" (sub $total $i) "key" $key) -}}
+      {{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $found -}}
+    {{- errorf "cite shortcode: unknown publication key %q at %s" $key $.Position -}}
+  {{- end -}}
+{{- end -}}
+<span class="cite">[{{- range $j, $c := sort $cites "n" -}}{{- if $j }}, {{ end -}}<a href="{{ "research/" | relURL }}#{{ $c.key }}">{{ $c.n }}</a>{{- end -}}]</span>
+{{- /**/ -}}

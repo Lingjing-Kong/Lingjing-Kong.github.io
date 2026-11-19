@@ -1,0 +1,15 @@
+{{- /* Numbered publication list from data/publications.yml, newest first, oldest = 1. */ -}}
+{{- $pubs := hugo.Data.publications -}}
+{{- $total := len $pubs -}}
+<div class="pub-list">
+{{- range $i, $p := $pubs }}
+<div class="pub" id="{{ $p.key }}">
+<span class="pub-num">[{{ sub $total $i }}]</span>
+<div class="pub-body">
+<a class="pub-title" href="{{ $p.url | safeURL }}" target="_blank">{{ $p.title }}</a><br>
+{{ $p.authors | markdownify }}<br>
+{{ $p.venue | markdownify }}{{ with $p.badge }} <span class="award-badge">{{ . }}</span>{{ end }}
+</div>
+</div>
+{{- end }}
+</div>

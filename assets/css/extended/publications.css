@@ -1,0 +1,58 @@
+.pub-list {
+  margin-top: 1em;
+}
+
+.pub {
+  display: flex;
+  gap: 0.6em;
+  margin-bottom: 1.1em;
+  padding: 0.25em 0.4em;
+  border-radius: 6px;
+  scroll-margin-top: 1.5em;
+}
+
+/* Highlight the paper a numbered citation jumped to. */
+.pub:target {
+  background: #fff5d6;
+}
+
+.pub-num {
+  flex: 0 0 2.4em;
+  text-align: right;
+  color: #666;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-content .pub-title {
+  color: darkgreen;
+}
+
+.cite {
+  white-space: nowrap;
+}
+
+.post-content .cite a {
+  box-shadow: none;
+  text-decoration: none;
+  color: #4b2878;
+}
+
+.post-content .cite a:hover {
+  text-decoration: underline;
+}
+
+/* Overview figure: wider than the text column on large screens, click to open full size. */
+.post-content a.wide-figure {
+  display: block;
+  box-shadow: none;
+  width: min(1120px, 96vw);
+  margin: 1.5em 0 1.5em 50%;
+  transform: translateX(-50%);
+}
+
+.post-content a.wide-figure img {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+}

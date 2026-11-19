@@ -56,6 +56,8 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        # Fixed stylesheet name, so a page cached before a deploy still finds its styles.
+        disableFingerprinting: true
         favicon: "/favicon.svg"
         favicon16x16: "/favicon-16x16.png"
         favicon32x32: "/favicon-32x32.png"

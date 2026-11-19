@@ -7,6 +7,11 @@ hideMeta: true
 description: "Beyond Prediction: causal representation learning, current and future directions, and the complete publication list of Lingjing Kong."
 ---
 
+<figure class="wide-figure">
+<a href="/images/research_overview.png" target="_blank" title="Open the figure at full size"><img src="/images/research_overview.png" alt="Research overview: causality for machine learning (transferability, interpretability, controllability) and machine learning for causality."></a>
+<figcaption>My research at a glance. Bracketed numbers, here and in the text below, refer to the <a href="#publications">publication list</a>.</figcaption>
+</figure>
+
 [Overview](#overview) · [Causality for ML](#causality-for-ml) · [ML for causality](#ml-for-causality) · [Publications](#publications)
 
 ## Beyond Prediction {#overview}
@@ -15,10 +20,6 @@ I develop **causal representation learning**: recovering the concepts and mechan
 
 - **[Causality for machine learning](#causality-for-ml):** causal principles make models **transferable**, **interpretable**, and **controllable**.
 - **[Machine learning for causality](#ml-for-causality):** scalable learning makes **causal discovery and inference** feasible for complex observations and large systems.
-
-<a class="wide-figure" href="/images/research_overview.png" target="_blank" title="Open the figure at full size"><img src="/images/research_overview.png" alt="Research overview: causality for machine learning (transferability, interpretability, controllability) and machine learning for causality."></a>
-
-Bracketed numbers, in the figure and in the text, refer to the [publication list](#publications).
 
 ## I. Causality for machine learning {#causality-for-ml}
 
